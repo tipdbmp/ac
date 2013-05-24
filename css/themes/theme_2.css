@@ -1,0 +1,5 @@
+h2 { background: blue; }
+
+#time-display { font-family: Consolas, monospace; font-size: 512px; }
+#hours, #minutes, #seconds { color: green; }
+.colon { color: black; }

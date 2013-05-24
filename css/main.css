@@ -1,0 +1,4 @@
+body { background: white; }
+
+#config-section { position: fixed; top:0px; right: 0px; }
+#time-display { text-align: center; font-size: 256px;  }

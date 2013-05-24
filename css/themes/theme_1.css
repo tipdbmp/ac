@@ -1,0 +1,5 @@
+h2 { background: red; }
+
+#time-display { }
+#hours, #minutes, #seconds { color: black; }
+.colon { color: black; }

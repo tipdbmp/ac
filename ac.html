@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/themes/theme_1.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/libs/jquery-1.8.2.min.js"></script>
+    <script src="js/libs/howler.min.js"></script>
+    <script src="js/libs/sprintf-0.7-beta1.js"></script>
+    <script src="js/libs/stylesheet_switcher.js"></script>
+    <script src="js/main.js"></script>
+
+    <title>ac - audio clock aka annoying clockage</title>
+</head>
+
+<body>
+    <div id="page">
+        <!-- <button id="play">play</button> -->
+        <!-- <button id="pause">pause</button> -->
+
+        <div id="time-display">
+            <span id="hours" class="hours">00</span><span class="colon">:</span><span id="minutes" class="minutes">00</span><span class="colon">:</span><span id="seconds" class="seconds"></span>
+        </div>
+    </div>
+
+    <!-- <h2>whatever</h2> -->
+    <!-- <input id="time" type="text" placeholder="12:44" /> -->
+    <!-- <button id="say-time">say the time</button> -->
+
+
+    <div id="config-section">
+        <!-- <button>buttony</button> -->
+
+        <select id="voice-select" class="">
+            <option value="bogus">[voice]</option>
+            <option value="en_google_guy">[en_google_guy]</option>
+        </select>
+
+        <select id="theme-select" class="theme-select-eyecandy">
+            <option value="bogus">[theme]</option>
+            <option value="css/themes/theme_1.css">[theme 1]</option>
+            <option value="css/themes/theme_2.css">[theme 2]</option>
+        </select>
+    <div>
+</body>
+
+</html>
